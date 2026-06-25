@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TPS546C23RVFT") (type "KiCad") (uri "${KIPRJMOD}/Custom/TPS546C23RVFT.kicad_sym") (options "") (descr ""))
+)
