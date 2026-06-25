@@ -1,0 +1,11 @@
+-backups/
+*.lck
+*.zip
+*.bak
+*.bck
+*-cache*
+*.kicad_prl
+_autosave-*
+\#auto_saved_files\#
+.history/
+_restore_backup_*/
