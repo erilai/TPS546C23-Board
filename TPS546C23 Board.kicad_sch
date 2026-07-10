@@ -1804,6 +1804,12 @@
 		(uuid "85e22462-e5b2-44a5-939a-4414fad4b0fc")
 	)
 	(junction
+		(at 91.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "893877ac-177e-42b3-9434-25d620379d68")
+	)
+	(junction
 		(at 212.09 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1989,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 41.91) (xy 137.16 41.91)
+			(xy 133.35 38.1) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 137.16 41.91)
+			(xy 137.16 48.26) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2309,6 +2315,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 48.26) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbaa618-7069-4371-a37d-5ba2b3e75e47")
+	)
+	(wire
+		(pts
 			(xy 91.44 57.15) (xy 91.44 64.77)
 		)
 		(stroke
@@ -2459,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 41.91) (xy 115.57 48.26)
+			(xy 115.57 38.1) (xy 115.57 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2629,6 +2645,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 55.88) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22da0b6-4e2b-4ab0-957d-b80ea3b46a58")
+	)
+	(wire
+		(pts
 			(xy 194.31 93.98) (xy 194.31 97.79)
 		)
 		(stroke
@@ -2659,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 41.91) (xy 125.73 41.91)
+			(xy 123.19 38.1) (xy 125.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2968,6 +2994,30 @@
 		(uuid "0d7cbcc1-28b6-4eb5-bf29-31f87963987b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.6811 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AGND"
+		(shape input)
+		(at 78.74 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b69e059-f1b7-4513-996d-f7520dde6f30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 66.3643 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,10 +3681,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15e11196-4c30-43d6-bd2e-49631341d572")
 		(property "Reference" "Ccomp1"
-			(at 102.87 57.15 90)
+			(at 102.87 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3644,7 +3693,7 @@
 			)
 		)
 		(property "Value" "270p"
-			(at 102.87 59.69 90)
+			(at 102.87 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4208,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 41.91 270)
+		(at 119.38 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4219,7 +4268,7 @@
 		(fields_autoplaced yes)
 		(uuid "428ac334-d221-4442-aefa-0e4a8b044657")
 		(property "Reference" "Cdifo1"
-			(at 119.38 34.29 90)
+			(at 119.38 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +4278,7 @@
 			)
 		)
 		(property "Value" "1200p"
-			(at 119.38 36.83 90)
+			(at 119.38 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4239,7 +4288,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.57 42.8752 0)
+			(at 115.57 39.0652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4250,7 +4299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 41.91 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +4310,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 41.91 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5636,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 41.91 90)
+		(at 129.54 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5598,7 +5647,7 @@
 		(fields_autoplaced yes)
 		(uuid "a45dd544-d604-4586-a8a2-88c3dcec36c9")
 		(property "Reference" "Rdifo1"
-			(at 129.54 35.56 90)
+			(at 129.54 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5608,7 +5657,7 @@
 			)
 		)
 		(property "Value" "1.1k"
-			(at 129.54 38.1 90)
+			(at 129.54 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5618,7 +5667,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.54 43.688 90)
+			(at 129.54 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 41.91 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 41.91 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,10 +6214,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d5a565a7-0a16-4171-a438-4d0a48693cea")
 		(property "Reference" "Rdifo2"
-			(at 119.38 41.91 90)
+			(at 119.38 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6178,7 +6226,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 44.45 90)
+			(at 119.38 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,6 +6683,88 @@
 			(project "TPS546C23 Board"
 				(path "/960453c9-4812-426e-be09-fe8f88aa18c9"
 					(reference "Crsn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f689d20c-5199-4b75-be43-875de3ec0aa3")
+		(property "Reference" "Rbias1"
+			(at 81.28 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 81.28 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.518 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2023b800-fc76-48b3-87f6-c56d02d363b3")
+		)
+		(pin "1"
+			(uuid "d5d90391-dc0f-470c-9761-e2b23c1eef26")
+		)
+		(instances
+			(project "TPS546C23 Board"
+				(path "/960453c9-4812-426e-be09-fe8f88aa18c9"
+					(reference "Rbias1")
 					(unit 1)
 				)
 			)
