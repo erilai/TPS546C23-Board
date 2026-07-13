@@ -2933,7 +2933,7 @@
 		)
 		(uuid "fc899e9e-a747-4c9f-8f6f-a1cbce513057")
 	)
-	(global_label "rsn"
+	(global_label "rs-"
 		(shape input)
 		(at 100.33 97.79 90)
 		(fields_autoplaced yes)
@@ -2945,7 +2945,7 @@
 		)
 		(uuid "03fcc437-9381-4754-90ab-8b47587def49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 91.8415 90)
+			(at 100.33 91.4181 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +3077,7 @@
 			)
 		)
 	)
-	(global_label "rsp"
+	(global_label "rs+"
 		(shape input)
 		(at 107.95 97.79 90)
 		(fields_autoplaced yes)
@@ -3089,7 +3089,7 @@
 		)
 		(uuid "38daf89f-51da-4c21-9b03-f176feb69130")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 91.8415 90)
+			(at 107.95 91.4181 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +3101,7 @@
 			)
 		)
 	)
-	(global_label "rsn"
+	(global_label "rs-"
 		(shape input)
 		(at 170.18 64.77 90)
 		(fields_autoplaced yes)
@@ -3341,7 +3341,7 @@
 			)
 		)
 	)
-	(global_label "rsp"
+	(global_label "rs+"
 		(shape input)
 		(at 172.72 64.77 90)
 		(fields_autoplaced yes)
